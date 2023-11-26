@@ -16886,7 +16886,7 @@ Interpretation: There is insufficient evidence to reject the null hypothesis. Th
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Applying-Import-Response-Function-analysis">Applying Import Response Function analysis<a class="anchor-link" href="#Applying-Import-Response-Function-analysis">&#182;</a></h3><p>To apply a response function analysis we first orthogonalize the innovations. To do so we apply the following step:</p>
+<h3 id="Applying-Impulse-Response-Function-analysis">Applying Impulse Response Function analysis<a class="anchor-link" href="#Applying-Impulse-Response-Function-analysis">&#182;</a></h3><p>To apply a response function analysis we first orthogonalize the innovations. To do so we apply the following step:</p>
 <ul>
 <li>Estimate the VECM model and obtain the innovation $\epsilon_t$</li>
 <li>Compute the covariance matrix $\sum$ of $\epsilon_t$</li>
@@ -16989,6 +16989,38 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>FDX → CL=F: FedEx's stock price shock appears to have a minimal and slightly positive effect on crude oil prices initially, but this effect seems negligible and not persistent, indicating that FedEx's stock price does not significantly influence crude oil prices.</li>
+</ul>
+<ul>
+<li>FDX → CL=F: FedEx's stock price shock appears to have a minimal and slightly positive effect on crude oil prices initially, but this effect seems negligible and not persistent, indicating that FedEx's stock price does not significantly influence crude oil prices.</li>
+</ul>
+<ul>
+<li>Inflation rate → CL=F: A shock to the inflation rate has a positive and growing impact on crude oil prices. This could imply that as inflation increases, so do crude oil prices, which aligns with historical observations where inflation often correlates with rising commodity prices.</li>
+</ul>
+<ul>
+<li>CL=F → FDX: A shock in crude oil prices seems to have no significant immediate or long-term effect on the stock price of FedEx. The response is mostly flat, which suggests that crude oil price changes might not be a decisive factor for FedEx's stock performance or that the market has already priced in the expected effects</li>
+</ul>
+<ul>
+<li>Inflation rate → FDX: A negative response of FedEx's stock price to inflation rate shocks is observed, which grows more negative over time. This may indicate that higher inflation rates could be perceived negatively for FedEx's stock value, possibly due to concerns about rising costs affecting profitability.</li>
+</ul>
+<ul>
+<li>CL=F → Inflation rate: Crude oil price shocks show a positive and slightly increasing impact on the inflation rate. This is consistent with economic theory, as oil prices are a significant component of the cost of goods and can drive inflationary pressures.</li>
+</ul>
+<ul>
+<li>FDX → Inflation rate: There is a small positive response of the inflation rate to shocks in FedEx's stock price. This relationship is not typically direct in economic terms, but it could suggest that movements in major company stock prices like FedEx could be associated with broader economic activity that influences inflation.</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
