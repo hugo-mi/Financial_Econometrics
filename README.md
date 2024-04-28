@@ -4,4 +4,7 @@ Financial Econometrics
 - Vector Autoregressive model (VAR)
 - Vector Error Correction Model (VECM), cointegration theory
 - Markov Switching Model
-- Difference and Difference 
+- Difference and Difference
+- Logit, Probit model
+- Value at Risk, stressed VaR and Expected Shortfall (CVaR) (historical VaR, parametric VaR, Hybride VaR, Monte Carlo VaR)
+- Copulas Theory
